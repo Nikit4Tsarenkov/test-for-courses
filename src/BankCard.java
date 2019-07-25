@@ -97,6 +97,6 @@ public class BankCard {
 
     @Override public String toString()
     {
-        return blockStatus + " " + individualNumber + " " + pin + " " + balance;
+        return individualNumber + " " + pin + " " + balance + " " + blockStatus;
     }
 }
