@@ -62,6 +62,7 @@ public class Main {
                         else
                         {
                             owner.topUpTheBalance(Amount);
+                            System.out.println("operation completed successfully, current balance is: " + owner.currentBalance());
                             break;
                         }
                     }
@@ -78,6 +79,7 @@ public class Main {
                         else
                         {
                             owner.withdrawMoney(Amount);
+                            System.out.println("operation completed successfully, current balance is: " + owner.currentBalance());
                             break;
                         }
                     }
